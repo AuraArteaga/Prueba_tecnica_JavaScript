@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Cronómetro</title>
+
+    <link rel="stylesheet" href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        
+</head>
+
+<body>
+
+
+    <div class="marco">
+        <div class="titulo">
+            <span>Cronómetro Aura</span>
+        </div>
+        <div class="tiempo" id="tiempo">00:00:00.000</div>
+        <div class="botones-contenedor">
+            <div class="btn" onclick="iniciar()">
+                <i class="fas fa-play"></i>
+            </div>
+            <div class="btn" onclick="pausar()">
+                <i class="fas fa-pause"></i>
+            </div>
+            <div class="btn" onclick="reiniciar()">
+                <i class="fas fa-undo-alt"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/codigo.js"></script>
+
+</body>
+
+</html>
